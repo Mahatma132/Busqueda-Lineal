@@ -93,11 +93,11 @@ int cont=0;
     else{
         for(int i=0;i<TAM;i++)
         {
-            cont++;
             if(elem==datos[i])
             {
                 std::cout<<"La posicion de tu constancia es: "<<cont<<std::endl;
             }
+            cont++;
         }
     }
     return true;
